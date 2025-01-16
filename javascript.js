@@ -10,13 +10,13 @@ async function getTopAnime(count = 5) {
           throw new Error(`Response status: ${response.status}`);
         }
 
-        let count = 0;
+        
         const json = await response.json();
         json.data.forEach(element => {
             console.log(element.images.jpg.image_url)
             let imgtag = document.createElement("img");
             imgtag.src = element.images.jpg.image_url
-            count++;
+            imgtag.classList.add("top-anime-img")
 
             if (count > 1){
                 

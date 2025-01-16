@@ -84,3 +84,42 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+.saved-shows-container  h2{
+    text-align: center;
+}
+
+.saved_shows-interface {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.button-next-img {
+
+    border: none;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+.button-next-img:hover {
+
+    border: 10px;
+    box-shadow: 10px;
+    background-color: bisque;
+}
+
+
+footer {
+
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div {
+
+    color: white;
+}

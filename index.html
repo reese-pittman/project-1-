@@ -23,16 +23,25 @@
 </div>
 <div class="saved-shows-container">
     <h2>Keep Watching</h2>
-    <div class="saved_shows-interface"> 
+    <div class="saved-shows-interface"> 
         <button class="button-next-img"><img src="/images/icons8-hand-left-24.png" alt=""></button> <!--Hand Left icon by Icons8-->
-        <div> <!-- this will display three titles with an image, one in the middle and two on the sides. The ones on the sides will be less visable and smaller-->
+        <div id="watched-shows"> <!-- this will display three titles with an image, one in the middle and two on the sides. The ones on the sides will be less visable and smaller-->
 
         </div>
         <button class="button-next-img"><img src="/images/icons8-hand-right-24.png" alt=""></button> <!--Hand Right icon by Icons8-->
     </div>
 </div>
 <div>
-    <h2></h2>
+    <div class="">
+        <h2>Top Shows</h2>
+        <label for="filter">Filter</label>
+        <select name="filter" id="filter">
+            <option value="volvo">Most Popular</option>
+            <option value="saab">Adventure</option>
+            <option value="mercedes">RomCom</option>
+            <option value="audi">New</option>
+        </select>
+    </div>
     <div id="top-shows">
 
     </div>
@@ -44,7 +53,7 @@
         <p>gitPfp: blank</p>
     </div>
 </footer>
-<script>getTopAnime();</script>
+<script>displayImages();</script>
     
 </body>
 

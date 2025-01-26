@@ -16,7 +16,7 @@
     <button><img src="" alt="Profile Picture"></button>
 </nav>
 <div class="news-container">
-    <h1>Anime Club</h1>
+    <h1>Impact Frames</h1>
     <div class="news-box">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quam enim itaque adipisci eaque sed, doloribus dignissimos officiis possimus impedit magnam a ipsam at repellat quibusdam libero repellendus labore perferendis?</p>
     </div>
@@ -24,11 +24,13 @@
 <div class="saved-shows-container">
     <h2>Keep Watching</h2>
     <div class="saved-shows-interface"> 
-        <button class="button-next-img"><img src="/images/icons8-hand-left-24.png" alt=""></button> <!--Hand Left icon by Icons8-->
+        <button onclick="leftImg()" class="button-next-img"><img src="/images/icons8-hand-left-24.png" alt=""></button> <!--Hand Left icon by Icons8-->
         <div id="watched-shows"> <!-- this will display three titles with an image, one in the middle and two on the sides. The ones on the sides will be less visable and smaller-->
-
+            <img id="leftImg" class="side-img" src="" alt="" >
+            <img id="centerImg" class="current-img" src="" alt="" >
+            <img id="rightImg" class="side-img" src="" alt="">
         </div>
-        <button class="button-next-img"><img src="/images/icons8-hand-right-24.png" alt=""></button> <!--Hand Right icon by Icons8-->
+        <button onclick="rightImg()" class="button-next-img"><img src="/images/icons8-hand-right-24.png" alt=""></button> <!--Hand Right icon by Icons8-->
     </div>
 </div>
 <div>

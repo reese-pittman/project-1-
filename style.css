@@ -100,6 +100,8 @@ nav {
     padding: 5px;
     background-color: aquamarine;
     border-radius: 10px;
+    height: 30px;
+    width: 30px;
 
 }
 
@@ -124,9 +126,6 @@ nav {
 .current-img{
     width: 70px;
     height: 100px;
-}
-.hidden-img {
-    display: none;
 }
 
 
